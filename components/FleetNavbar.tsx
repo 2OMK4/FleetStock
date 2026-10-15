@@ -4,7 +4,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useTranslations } from "next-intl";
-
+import { LogoutButton } from "@/components/logout-button";
 import { ThemeSwitcher } from "@/components/theme-switcher";
 import LanguageSwitcher from "@/components/LanguageSwitcher";
 
@@ -53,11 +53,13 @@ export default function FleetNavbar() {
               );
             })}
           </nav>
-
+          
           <div className="flex items-center gap-2 border-slate-200 dark:border-slate-700">
-            <LanguageSwitcher />
-            <ThemeSwitcher />
+              <LanguageSwitcher />
+              <ThemeSwitcher />
+              <LogoutButton />
           </div>
+
 
         </div>
       </div>

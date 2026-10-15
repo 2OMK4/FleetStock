@@ -4,7 +4,10 @@
     "inventory": "المخزون",
     "vehicles": "المركبات",
     "trips": "الرحلات والسجل",
-    "startTrip": "بدء رحلة"
+    "startTrip": "بدء رحلة",
+    "signOut": "تسجيل الخروج",
+    "signingOut": "جارٍ تسجيل الخروج..."
+
   },
   "common": {
     "add": "إضافة",

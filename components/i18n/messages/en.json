@@ -4,7 +4,9 @@
     "inventory": "Inventory",
     "vehicles": "Vehicles",
     "trips": "Trips & History",
-    "startTrip": "Start Trip"
+    "startTrip": "Start Trip",  
+    "signOut": "Sign Out",
+    "signingOut": "Signing out..."
   },
   "common": {
     "add": "Add",
